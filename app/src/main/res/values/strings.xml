@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">iDesk</string>
+    <string name="LED1">LED1</string>
+    <string name="LED2">LED2</string>
+    <string name="LED3">LED3</string>
+    <string name="LED4">LDE4</string>
+    <string name="LED5">LED5</string>
+    <string name="LAMP">Lamp</string>
+    <string name="mode_breath">Breathe</string>
+</resources>

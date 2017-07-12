@@ -1,0 +1,97 @@
+<RelativeLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="My Desk"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+      />
+
+    <TextView
+        android:layout_below="@id/textView3"
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Time"
+     />
+
+    <Switch
+        android:layout_below="@id/textView4"
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:checked="false"
+        android:splitTrack="false"
+        android:text="@string/LED1"
+        tools:checked="false" />
+
+    <Switch
+        android:layout_below="@id/switch1"
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LED2"
+      />
+
+    <Switch
+        android:layout_below="@id/switch2"
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LED3"
+    />
+
+    <Switch
+        android:layout_below="@id/switch3"
+        android:id="@+id/switch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LED4"
+       />
+
+    <Switch
+        android:layout_below="@id/switch4"
+        android:id="@+id/switch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LED5"
+    />
+    <CheckBox
+        android:id="@+id/ck_breathe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mode_breath"
+        android:layout_marginLeft="30dp"
+        android:layout_alignBaseline="@+id/switch3"
+        android:layout_alignBottom="@+id/switch3"
+        android:layout_toRightOf="@+id/switch2"
+        android:layout_toEndOf="@+id/switch2"
+        android:layout_marginStart="30dp" />
+    <Switch
+        android:layout_below="@id/switch5"
+        android:id="@+id/switch6"
+        android:layout_width="125dp"
+        android:layout_height="59dp"
+        android:text="@string/LAMP"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        />
+
+</RelativeLayout>
